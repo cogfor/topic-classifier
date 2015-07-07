@@ -1,4 +1,4 @@
-name := "Scala SBT Template"
+name := "TopicClassifier"
 
 version := "0.1.0-SNAPSHOT"
 
@@ -9,7 +9,13 @@ organization := "com.cogfor"
 libraryDependencies ++= {
     Seq(
         "org.specs2" %% "specs2" % "3.3.1" % "test",
-        "org.scalatest" %% "scalatest" % "3.0.0-M5" % "test"
+        "org.scalatest" %% "scalatest" % "3.0.0-M5" % "test",
+	"edu.stanford.nlp" % "stanford-corenlp" % "3.4.1",
+  	"edu.stanford.nlp" % "stanford-corenlp" % "3.4.1",
+  	"edu.umd" % "cloud9" % "1.5.0",
+  	"com.google.guava" % "guava" % "14.0.1",
+  	"info.bliki.wiki" % "bliki-core" % "3.0.19",
+  	"org.apache.hadoop" % "hadoop-client" % "2.7.0"
     )
 }
 
